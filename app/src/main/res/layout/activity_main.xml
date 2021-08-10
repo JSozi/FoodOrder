@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Menu"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Bananas"
+            android:textSize="35sp"
+            android:textColor="#0a0a0a"/>
+
+        <Button
+            android:id="@+id/bananasButton"
+            android:layout_weight="1"
+            android:text="Add"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Black-Beans"
+            android:textSize="35sp"
+            android:textColor="#0a0a0a"/>
+
+        <Button
+            android:id="@+id/blackBeansButton"
+            android:layout_weight="1"
+            android:text="Add"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Red-Meat"
+            android:textSize="35sp"
+            android:textColor="#0a0a0a"/>
+
+        <Button
+            android:id="@+id/redMeatButton"
+            android:layout_weight="1"
+            android:text="Add"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Chicken"
+            android:textSize="35sp"
+            android:textColor="#0a0a0a"/>
+
+        <Button
+            android:id="@+id/chickenButton"
+            android:layout_weight="1"
+            android:text="Add"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="200dp"
+        android:layout_height="50dp">
+
+        <Button
+            android:id="@+id/placeorderButton"
+
+            android:layout_width="378dp"
+            android:layout_height="match_parent"
+            android:text="Place Order"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
